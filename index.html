@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>PromodoMe v1</title>
+  <meta charset="utf-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--  ****  TITLE HERE -->
+<title>Promodo</title>
+
+<!--  ****  DESCRIPTION HERE -->
+<meta name="description" content="Promodo Timer v1">
+        
+<!--  ****  AUTHOR HERE -->
+<meta name="Tom Ormiston" content="Promodo Timer web app for the Free Code Camp course.">
+    
+<!--  ****  CSS etc LINKS HERE -->    
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+<link rel="stylesheet" href="assets/css/main.css">
+
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!--  
+Made for the Free Code Camp course (http://www.freecodecamp.com/challenges/build-a-pomodoro-clock )
+
+DESIGN & RESEARCH
+
+The basic Free Code camp requirements were:-
+
+1)can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.
+2)can reset the clock for my next pomodoro.
+3)can customise the length of each pomodoro.
+
+In addition to the basic Free Code camp requirements, 
+professional versions also favoured:
+
+* Dark theme capable
+* Charts of achievements of past promodos
+* Different screens for promodo and break-time
+
+
+As this was a learning exercise I also wanted to include
+
+Sass
+*****
+
+Variables: widths, heights, colors, z-index's
+Google Color Palette, (https://github.com/danlevan/google-material-color) restricted fonts (https://mendel.me/development/using-google-fonts-css-stylesheet)
+
+
+
+Event  bubbling
+***************
+Rather than lots of addEventListers; use the event object and allow the event flow carol built into the browser to ‘bubble’ up to get the element ID clicked
+
+Mini-state machine used
+The different states can be be represented in a global variable, then a switch case statement can control the state flow, like a mini-state machine.
+
+d3
+******
+Using d3 to make an arc for the counter graphic is probably a bit of an overkill as we could use CSS. However if the app were to be used for real, I’d probably add charts to display records of promodos used. Also Im going to have to learn how to use d3.
+So for those two reasons I decided to use d3 to make the arc for the countdown.
+
+
+Input Range Slider
+******************
+Decided to use a slider to control the primed time rather than 
+a button as used in the FCC version.
+Input range (https://github.com/darlanrod/input-range-sass)
+
+
+SVG's id's given and Xlink used
+*******************************
+By using xlink, we can put in-line svg’s at the top of the HTML, then link them into the appropriate place using <use id=“the_link_id”> 
+
+data attributes on HTML
+***********************
+We can define an attribute data-state=“on” or off, which will toggle the CSS. This might work better than simply having a class applied
+
+sound
+*******
+Just for fun, add a couple of sound files that play at the beginning and end of the primed. Decided to mix some free ones found on Freesound.org
+
+-->
+<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+<!-- *******************                SVG ID Groups                 *******************
+USe gruoup id's with style to display none and reference the svg in main body of HTML -->
+
+
+
+<!--  theme button  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+<g id="themeButt_svg">
+    <path d="M0 0v50h50V0zm23.4 14c1.7 0 2 .2.5 1-5 4-6.2 9.6-4.4 14.8 1 2.5 3 4.7 5.3 6-2.5.7-5.7-.4-7.7-2.3-5.4-5-4.3-15.3 2.4-18.5 1.2-.6 2.4-1 3.7-1z"/>
+</g>
+</svg>
+
+
+
+<!--   whole donut graphic -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="display: none;">
+<g id="wholeDonutGraphic_svg">
+<path d="M171.6 230.5A102.3 102.3 0 0 1 40 170.8 102.3 102.3 0 0 1 99.4 39a102.3 102.3 0 0 1 131.8 59.7 102.3 102.3 0 0 1-59.6 131.8" fill="none" stroke-width="63.9"/>
+</g>
+</svg>
+
+
+<!--  teaBreak Graphic  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+<g id="teaBreakGraphic_svg">
+<path d="M44.4 16.6c-11 1.2-15.3-5-15 10.6C32 79.5 52.6 133 91 162.6c2.7 6.6.5 14.7 1 22v14.6h109v-35c13.3-10 25-23.3 34.2-38.5 18.5 14.5 47.6 7.2 56.8-17.3 11-27-1-62.2-24-74.8-9.3-1 4.5-17-10-16.8-71.2.3-142.4 0-213.5 0v-.2zm.7 14.8h203.5c-3.8 49.5-27 100-67 121.2-34.8 18.6-78.4 5-102.8-28.5C59 99 47.7 65.3 45 31.5zM262 49c19.4 9.3 27.2 44.5 9.4 60.3-7 7-24.2 9-27.3 0 9-18.8 15-39.3 18-60.3z" fill="#aaa"/>
+</g>
+</svg>
+
+
+
+<!--  taskDone button  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+
+<g id="taskdone_svg">
+    <path d="M2.2.6v1408.8h1407.3V.6zm992.6 294c65.4 47 118.5 114.3 174.8 172-453 417.8-402.7 438-581.4 619.3C358 855 480.4 961.6 266 794.3c234-272 147.7-221.2 280.6-102.4 28.2 24.6 44.3-7.7 66.3-24C731.2 547 850 426 968.3 304.7c6.8-6.7 16.6-11.6 26.3-10z"/>
+</g>
+</svg>
+
+
+
+
+
+<!--  gotoTimer button  -->
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+<g id="gotoTimer_svg">
+    <path d="M-1.6-1h1412v1410.5H-1.6V-.8z" fill="none" stroke="#000" stroke-width=".3"/>
+    <path d="M0 0v1411h1411V0H0zm705.7 164.5c245.8-6.5 468.4 191.3 510.8 430 44.3 213-48 449-233 566.5-173 116.3-416.7 108.2-581.8-18.8-202.5-147-274-440-168.5-666 80-183.6 270.2-315.6 472.5-311.7zm-5.8 65.7C482.4 229.5 288 407 256 619.8c-39.4 207.3 73.6 435 269.4 519 175.3 81.8 398.6 29 521.4-120 161-179 153-479-17-649.2-84.6-89.3-206.7-141.7-330-139.4zM651.2 305H744l20.7 385.2 238.6 255.4-70 68-303.4-263.3L651.2 305z"/>
+</g>
+</svg>
+
+
+
+<!-- *******************   END of SVG  Groups *******************  -->
+
+
+<div class="page blueRed_page">
+ 
+  <div class="theme_wrapper">
+   
+    <div id="themeButt" class="themeSelect blueRed_themeButt">
+           <svg viewbox="0 0 50 50">
+           <use id="themeButt_svg_use" xlink:href="#themeButt_svg"></use>
+           </svg>
+    </div>
+    
+  </div>
+<!--
+  The three blocks represent three states and seperate screens 
+   to be turned off or on depending on state condition -->
+    <div id= "mainInfoBlockID" class="mainInfoBlock">
+      
+    <!--   READY STATE   -->  
+       <div id="mainInfo_ready" data-state="on" class="blueRed_mainInfo_ready">
+       
+              <div id="promodoTimeLength" class="counterPromodo"></div>
+              <p id="minutesLabel_readyState_id" data-mins_secs_note="on" class="minuteSecondNote_ready">mins</p> 
+              <p id="secondsLabel_readyState_id" data-mins_secs_note="off" class="minuteSecondNote_ready">secs</p>
+              <div id="counterGraphic_ready" class="counterGraphic blueRed_counterGraphic_ready">
+              <svg viewbox="0 0 270 270"><use id="wholeDonutGraphic" xlink:href="#wholeDonutGraphic_svg"></use></svg>
+              </div>
+              <div id="pausedNote" class="counterPauseNote">PAUSED</div>
+       </div>
+       
+    <!--   COUNTDOWN STATE   -->   
+       <div id="mainInfo_countdown" data-state="off">
+              
+              <div id="promodoCountingDown" class="counterPromodo"></div>
+              <p id="minutesLabel_countdown_id" class="minuteSecondNote_countdown">mins</p> 
+              <p id="secondsLabel_countdown_id" class="minuteSecondNote_countdown">secs</p>
+              <div id="counterGraphic_counting" class="counterGraphic"></div>
+       
+       </div>
+       
+     <!--   TEA-BREAK STATE   -->    
+       <div id="mainInfo_teaBreak" data-state="off">
+             
+              <div id="promodoTeadBreakTime" class="teaBreakCounter"></div>
+              <p id="minutesLabel_teaBreak_id" class="minuteSecondNote_teaBreak">mins</p> 
+              <p id="secondsLabel_teaBreak_id" class="minuteSecondNote_teaBreak">secs</p>
+              <div id="teaBreakGraphic" class="teaBreakGraphic">
+             <svg viewbox="0 0 300 200"><use xlink:href="#teaBreakGraphic_svg"></use></svg>
+              </div>
+              <div id="teaBreakNote" class="teaBreakNote">Take a break!</div>
+       
+       </div>
+    </div>
+    
+    <!-- The time slider is displayed in the 'ready' state only  -->
+    <div class="timeSlider">
+       <div id="timerAdjust" data-state="off">
+            <input type="range" name="promodoInputName" id="promodoTimeInId" min="5" max="30" step="5" value="20"/>
+       </div>
+    </div>
+    
+    
+    <!--  for both the countdown and tea-break state an 'option' button exists   -->
+    <div class="option">
+      
+      <!--  skip the countdown and go to tea-break state  -->
+       <button id="taskDoneButt" class="button" data-state="off">
+           <svg id="taskDoneButt_svg" preserveaspectratio="xMidYMid" viewbox="0 0 1411.1111 1411.1111" fill-rule="evenodd" stroke-width="28.2" stroke-linejoin="round"><use id="taskDoneButt_svg_use" xlink:href="#taskdone_svg"></use></svg>
+        </button>
+        
+      <!--  skip the tea-break and go to ready state   -->    
+       <button id="skipBreakButt" class="button" data-state="off">
+           <svg id="skipBreakButt_svg" viewbox="0 0 1411.1112 1411.1111" preserveaspectratio="xMidYMid" fill-rule="evenodd" stroke-width="28.2" stroke-linejoin="round"><use id="skipBreakButt_svg_use" xlink:href="#gotoTimer_svg"></use></svg> 
+       </button>
+    </div>
+    
+</div>
+
+
+
+
+<!--  **** JS SCRIPTS   -->
+        <script src="assets/js/jquery-2.1.4.min.js"></script>
+        <script src="assets/js/d3.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
