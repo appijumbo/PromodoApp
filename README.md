@@ -2,6 +2,8 @@
 
 You can find this one at http://codepen.io/tom_o/pen/XdXqOB.
 
+also https://appijumbo.github.io/PromodoApp/
+
 Made for the Free Code Camp course (http://www.freecodecamp.com/challenges/build-a-pomodoro-clock )
 
 ##DESIGN & RESEARCH
