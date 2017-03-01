@@ -45,24 +45,30 @@ Basic market research suggests:
 ## Design Process
 
 [Initial design](./promodo_design/IA v3.jpg) looked like
-
+<img src="./promodo_design/IA v3.jpg" width="600">
 
 ### Creating an MVP
 The design was simplified and screen workflow (roughly speaking a 'Information Architecture' (IA) design) was produced to focus on some minimal viable product
 
 [Promodo IA v1](./promodo_design/Promodo IA v1.jpg)
+<img src="./promodo_design/Promodo IA v1.jpg" width="600">
 
 
 secong version MVP
 [Promodo IA v2](./promodo_design/Promodo map v2.jpg)
+<img src="./promodo_design/Promodo map v2.jpg" width="600">
 
 
 The final detailed wireframe was a scaled pdf for a mobile screen
 
 [360x640 MotoG presentaion v7_1](./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
-[360x640 MotoG presentaion v7_2](./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
-[360x640 MotoG presentaion v7_3](./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg" width="600">
 
+[360x640 MotoG presentaion v7_2](./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg" width="600">
+
+[360x640 MotoG presentaion v7_3](./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg" width="600">
 
 [Final MVP design](./promodo_design/wireframe v14.pdf)
 
