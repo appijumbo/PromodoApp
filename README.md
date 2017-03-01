@@ -5,7 +5,7 @@
 
 This timer is also on [Codepen](http://codepen.io/tom_o/pen/XdXqOB)
 
-Made for the [Free Code Camp course](http://www.freecodecamp.com/challenges/build-a-pomodoro-clock )
+Made for the [Free Code Camp course](http://www.freecodecamp.com/challenges/build-a-pomodoro-clock)
 
 ## Objectives
 
@@ -26,13 +26,45 @@ professional versions also favoured:
 
 
 ## Market Review
+Basic [market Research](./promodo_design/./promodo_design/market%20research.jpg) was done by looking at comments from users on other promodo apps in the Google App store. 
+Some conclusions were
+
+Basic market research suggests:
+
+  * Not always possible to complete sessions
+
+  * Thin circles are not easy to see
+
+  * Can Pick break or promodo
+
+  * Color customization is useful; dark mode
 
 
 
 
 ## Design Process
 
+[Initial design](./promodo_design/IA v3.jpg) looked like
 
+
+### Creating an MVP
+The design was simplified and screen workflow (roughly speaking a 'Information Architecture' (IA) design) was produced to focus on some minimal viable product
+
+[Promodo IA v1](./promodo_design/Promodo IA v1.jpg)
+
+
+secong version MVP
+[Promodo IA v2](./promodo_design/Promodo map v2.jpg)
+
+
+The final detailed wireframe was a scaled pdf for a mobile screen
+
+[360x640 MotoG presentaion v7_1](./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
+[360x640 MotoG presentaion v7_2](./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
+[360x640 MotoG presentaion v7_3](./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
+
+
+[Final MVP design](./promodo_design/wireframe v14.pdf)
 
 
 
