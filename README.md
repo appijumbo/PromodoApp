@@ -1,11 +1,11 @@
 # [PromodoApp](https://appijumbo.github.io/PromodoApp/)
 
-<a href="https://appijumbo.github.io/PromodoApp/"><img src="./extras/three.jpg" width="400"></a>
+<a href="https://appijumbo.github.io/PromodoApp/"><img src="./extras/three.jpg" width="600"></a>
 
 
-You can find this one at http://codepen.io/tom_o/pen/XdXqOB.
+This timer is also on [Codepen](http://codepen.io/tom_o/pen/XdXqOB)
 
-Made for the Free Code Camp course (http://www.freecodecamp.com/challenges/build-a-pomodoro-clock )
+Made for the [Free Code Camp course](http://www.freecodecamp.com/challenges/build-a-pomodoro-clock )
 
 ## Objectives
 
