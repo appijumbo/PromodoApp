@@ -104,10 +104,8 @@ So for those two reasons I decided to use d3 to make the arc for the countdown.
 
 ### Input Range Slider
 
-Decided to use a slider to control the primed time rather than 
-a button as used in the FCC version.
-[Input range](https://github.com/darlanrod/input-range-sass)
-
+Decided to use a slider to control the primed time rather than a button as used in the FCC version.
+See [input range](https://github.com/darlanrod/input-range-sass) 
 
 ### One-click Dark Theme
 As part of the design process I determined that having a simple click for a dark theme may prove to be a usefull addition given it is intended for use on a desktop where dark themes are often prefered. By clicking this a data attribute is toggled which informs the CSS. The implementing proved to be a little tedious, I've personaly found the function quite usefull.
