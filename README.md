@@ -53,7 +53,7 @@ The design was simplified and screen workflow (roughly speaking a 'Information A
 
 [Promodo IA v1](./promodo_design/Promodo IA v1.jpg)
 
-<img src="./promodo_design/Promodo IA v1.jpg" width="600">
+<img src="./promodo_design/Promodo IA v1.jpg" width="400">
 
 
 secong version MVP
