@@ -12,8 +12,11 @@ Made for the [Free Code Camp course](http://www.freecodecamp.com/challenges/buil
 The basic Free Code camp requirements were:-
 
 1)can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.
+
 2)can reset the clock for my next pomodoro.
+
 3)can customise the length of each pomodoro.
+
 
 In addition to the basic Free Code camp requirements, 
 professional versions also favoured:
