@@ -1,0 +1,230 @@
+//$z_top: 1000
+//$z_middle: 500
+//$z_ground: 0
+//$z_deep: -500
+    
+.page
+  text-align: center
+  +size(360px 640px)
+  +display(flex)
+  +flex-direction(column)
+
+
+.theme_wrapper
+  +display(flex)
+  +flex-direction(row)
+  +justify-content(flex-start)
+  +align-content(center)
+  +size(360px 100px)
+  .themeSelect
+    +position(relative,20% null null 5%)
+    z-index: $z_top
+    height: 50px
+    width: 50px
+    background-color: none
+    fill: palette(gray, 500)
+    svg
+      border-radius: 25px
+      height: 30px
+      width: 30px
+      
+    
+.blueRed_page
+  background-color: $pageColor
+
+ 
+
+.blueRed_mainInfo_ready,
+.blueRed_mainInfo_countdown,
+.blueRed_mainInfo_teaBreak
+  background-color: none
+
+.blueRed_taskDoneButt,
+.blueRed_skipBreakButt
+  height: 50px
+  width: 50px
+  background-color: $pageColor
+  svg
+    border-radius: 25px
+    +size(50px 50px)
+    background-color: $white
+    fill: palette(red, 500)
+
+.dark_page
+  background-color: $black
+
+
+
+.dark_mainInfo_ready,
+.dark_mainInfo_countdown,
+.dark_mainInfo_teaBreak
+  background-color: none
+    
+
+    
+.dark_taskDoneButt,
+.dark_skipBreakButt
+  +size(50px 50px)
+  background-color: $black
+  svg
+    border-radius: 25px
+    +size(50px 50px)
+    //height: 50px
+    //width: 50px
+    background-color: $white
+    fill: palette(gray, 500)
+    
+    
+.mainInfoBlock
+  +position(relative,5% null null 23%)
+  z-index: $z_ground
+  +display(flex)
+  +flex-direction(row)
+  +justify-content(space-around)    
+  +size(200px 200px)
+  //background-color: green
+
+
+#mainInfo_ready[data-state="off"]
+  display: none
+
+
+#mainInfo_countdown[data-state="off"]
+  display: none
+
+
+#mainInfo_teaBreak[data-state="off"]
+  display: none
+
+
+.minuteSecondNote_ready[data-mins_secs_note="on"],
+.minuteSecondNote_countdown[data-mins_secs_note="on"],
+.minuteSecondNote_teaBreak[data-mins_secs_note="on"]
+  +position(relative)
+  +size(77px 21px)
+  +display(flex)
+  +flex-direction(row)
+  +justify-content(centre)
+  font-family: 'Changa One', 'Arial'
+  font-style: italic
+  top: 50px
+  left: 20px
+  z-index: $z_top
+  font-size: 24px
+  font-weight: 300
+  letter-spacing: 0.5px
+  line-height: 1.2em
+  //background-color: grey
+
+
+.minuteSecondNote_ready[data-mins_secs_note="off"],
+.minuteSecondNote_countdown[data-mins_secs_note="off"],
+.minuteSecondNote_teaBreak[data-mins_secs_note="off"]
+  display: none
+
+.counterPromodo,
+.teaBreakCounter
+  +position(relative)
+  +size(95px 90px)
+  +display(flex)
+  +flex-direction(row)
+  +justify-content(space-around)
+  //background-color: grey
+  top: 55px
+  left: 0px
+  z-index: $z_top
+  margin: 0
+  font-size: 80px
+  font-weight: 300
+  letter-spacing: 0px
+  line-height: 1.15em
+  font-family: 'Permanent Marker', 'Arial'
+  
+  
+
+.counterGraphic
+  +position(absolute)
+  top: -28px
+  left: -36px
+  z-index: $z_deep
+  svg
+    +size(270px 270px)
+    
+    
+.dark_counterGraphic_ready>*
+  stroke: palette(gray, 500)
+    
+
+.blueRed_counterGraphic_ready>*
+  stroke: palette(red, 500)
+    
+    
+.teaBreakGraphic
+  +position(absolute)
+  top: -28px
+  left: -36px
+  z-index: $z_deep
+  svg
+    +size(277px 290px)
+    fill: palette(gray, 500)
+
+  
+      
+.teaBreakNote
+  +position(absolute)
+  z-index: 2000
+  top: 230px
+  left: 0px
+  font-size: 55px
+  font-weight: 400
+  line-height: 0.9em
+  font-style: italic
+  font-family: 'Changa One', 'Arial'
+
+
+
+#pausedNote
+  +position(absolute, 5.3em 0.9em null null)
+  +size(4em 1em)
+  top: 180px
+  left: 21px
+  z-index: $z_top
+  font-family: 'Changa One', 'Arial'
+  font-size: 2.5em
+  letter-spacing: 2px
+  line-height: 1.15em
+  font-weight: 300
+  //background-color: palette(gray, 500)
+
+.timeSlider
+  +position(relative, 27% null null 22%)
+  
+#timerAdjust[data-state="on"]
+  +size(200px 30px)
+
+#timerAdjust[data-state="off"]
+  display: none
+ 
+
+
+
+.option
+  +position(relative, 28% null null 65%)
+  +size(70px 70px)
+
+
+#taskDoneButt[data-state="off"]
+  display: none
+
+#skipBreakButt[data-state="off"]
+  display: none
+
+#taskDoneButt[data-state="on"]
+  +size(60px 60px)
+
+#skipBreakButt[data-state="on"]
+  +size(60px 60px)
+/* width=50 height=50 works in Chrome and Firefox but not Safari. */
+/* Box definition appears to be slightly different in Safari*/
+
+    

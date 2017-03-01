@@ -1,0 +1,86 @@
+Installing Neat
+***************
+
+iMac:css tomormiston$ cd /Users/tomormiston/Desktop/Coding\ Training/SASS\ \&\SS/SASS/sass\ demo\ 2_\ devTips/sass\ demo\ 2_\ v3_Neat\ devTips/css/0-plugins 
+
+iMac:0-plugins tomormiston$ sudo gem install neat
+
+Password:
+Fetching: neat-1.7.2.gem (100%)
+Successfully installed neat-1.7.2
+Parsing documentation for neat-1.7.2
+Installing ri documentation for neat-1.7.2
+1 gem installed
+
+iMac:0-plugins tomormiston$ neat install
+
+Neat files installed to neat/
+iMac:0-plugins tomormiston$ 
+
+
+*********
+Don’t forget to add to ‘plugins-dir’
+
+@import “neat/neat’
+
+
+————————————————
+
+Installing Bitters
+*****************
+
+iiMac:css tomormiston$ cd /Users/tomormiston/Desktop/Coding\ Training/SASS\ \&\SS/SASS/sass\ demo\ 2_\ devTips/sass\ demo\ 2_\ v3_Neat\ devTips/css/0-plugins
+
+iMac:0-plugins tomormiston$ sudo gem install bitters
+
+Fetching: bitters-1.2.0.gem (100%)
+Successfully installed bitters-1.2.0
+Parsing documentation for bitters-1.2.0
+Installing ri documentation for bitters-1.2.0
+1 gem installed
+iMac:0-plugins tomormiston$ 
+
+iMac:0-plugins tomormiston$ bitters install
+Bitters files installed to base/base
+iMac:0-plugins tomormiston$ 
+
+Note that ‘bitters’ is installed to ‘base’
+
+*********
+Don’t forget to add to ‘plugins-dir’
+
+@import “base/base”  
+
+***** as for some reason not ‘bitters’ 
+ideally like to say @import “bitters/bitters’
+
+Also add a ’normalise.scss’  file
+
+******  FROM BITTERS WEBSITE  *******
+Install Bitters:
+gem install bitters
+
+Install Bourbon and Neat (optional). Then cd to your Sass directory and run:
+bitters install
+
+The generated folder will contain all Bitters files. Import Bitters after Bourbon and Neat in your application.css.scss:
+@import "base/base";
+************************************
+
+
+Also add in normalise.css  
+Create a normalise.scss file in plugins by pasting in text found at say:
+
+https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css
+
+see  https://cdnjs.com/libraries/normalize
+
+then add to plugins-dir.sass
+
+@import “normailize”
+
+
+
+
+
+

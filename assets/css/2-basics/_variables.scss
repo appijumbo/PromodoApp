@@ -1,0 +1,41 @@
+$track-color: palette(white);
+$thumb-color: palette(red, 500);
+
+$thumb-height: 46px;
+$thumb-width: 46px;
+$thumb-radius: 23px;
+$thumb-shadow-size: 4px;
+$thumb-shadow-blur: 10px;
+$thumb-shadow-color: palette(grey, 900);
+$thumb-border-width: 0px;
+$thumb-border-color: palette(pink, 500);
+
+$track-width: 100%;
+$track-height: 15px;
+$track-shadow-size: 0px;
+$track-shadow-blur: 0px;
+$track-shadow-color: palette(white);
+$track-border-width: 0px;
+$track-border-color: palette(green, 500);
+
+$track-radius: 25px;
+$contrast: 25%;
+
+
+$pageColor: palette(blue, 700);
+
+
+//$rangePositionTop: 400px;
+//$rangePositionLeft: 200px;
+$rangeWidth: 260px;
+
+//$dialPositionTop: -150px;
+//$dialPositionLeft: 90px;
+//$dialFontSize: 100px;
+//dialColor: palette(white);
+
+
+$z_top: 1000;
+$z_middle: 500;
+$z_ground: 0;
+$z_deep: -500;
