@@ -2,8 +2,6 @@
 
 You can find this one at http://codepen.io/tom_o/pen/XdXqOB.
 
-also https://appijumbo.github.io/PromodoApp/
-
 Made for the Free Code Camp course (http://www.freecodecamp.com/challenges/build-a-pomodoro-clock )
 
 ##DESIGN & RESEARCH
@@ -63,4 +61,5 @@ We can define an attribute data-state=“on” or off, which will toggle the CSS
 ###sound
 *******
 Just for fun, add a couple of sound files that play at the beginning and end of the primed. Decided to mix some free ones found on Freesound.org
+
 
