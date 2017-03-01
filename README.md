@@ -66,15 +66,15 @@ The 'final' detailed wireframe was a scaled pdf for a mobile screen.
 
 [360x640 MotoG presentaion v7_1](./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
 
-<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg" width="200">
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg" width="400">
 
 [360x640 MotoG presentaion v7_2](./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
 
-<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg" width="200">
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg" width="400">
 
 [360x640 MotoG presentaion v7_3](./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
 
-<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg" width="200">
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg" width="400">
 
 Note that the tool tips wasn't implemented but would have been acheived by employing data attributes in the html. The dark theme that was implemented in the final version used as similar approach.
 
