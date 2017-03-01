@@ -66,15 +66,15 @@ The 'final' detailed wireframe MVP was 'tested' by using a scaled pdf for a mobi
 
 [360x640 MotoG presentaion v7_1](./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
 
-<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg" width="400">
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg" width="300">
 
 [360x640 MotoG presentaion v7_2](./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
 
-<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg" width="400">
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg" width="300">
 
 [360x640 MotoG presentaion v7_3](./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
 
-<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg" width="400">
+<img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg" width="300">
 
 Note that the tool tips wasn't implemented but would have been acheived by employing data attributes in the html. The dark theme that was implemented in the final version used as similar approach.
 
