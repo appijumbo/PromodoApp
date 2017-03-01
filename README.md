@@ -58,7 +58,7 @@ So for those two reasons I decided to use d3 to make the arc for the countdown.
 
 Decided to use a slider to control the primed time rather than 
 a button as used in the FCC version.
-Input range (https://github.com/darlanrod/input-range-sass)
+[Input range](https://github.com/darlanrod/input-range-sass)
 
 
 ### One-click Dark Theme
