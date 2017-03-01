@@ -62,7 +62,7 @@ secong version MVP
 <img src="./promodo_design/Promodo map v2.jpg" width="400">
 
 
-The 'final' detailed wireframe was a scaled pdf for a mobile screen.
+The 'final' detailed wireframe MVP was 'tested' by using a scaled pdf for a mobile screen.
 
 [360x640 MotoG presentaion v7_1](./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
 
