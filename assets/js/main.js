@@ -22,7 +22,7 @@ http://www.freesound.org/people/JasonElrod/sounds/85475/
 http://www.freesound.org/people/stijn/sounds/22890/
 
 */
-var breakTimeSound = new Audio("https://dl.dropboxusercontent.com/u/97758216/website%20Audio/tea-kettle-whistle%20-%20stirr%20v2.mp3");
+var breakTimeSound = new Audio("../assets/mp3/stirr.mp3");
 
 /*
 startSound a mix of:
@@ -30,7 +30,7 @@ https://www.freesound.org/people/AlienXXX/sounds/168560/
 https://www.freesound.org/people/Spol/sounds/337671/
 http://www.freesound.org/people/Puniho/sounds/165912/
 */
-var startSound = new Audio("https://dl.dropboxusercontent.com/u/97758216/website%20Audio/funky-beat_with%20here_we_go.mp3");
+var startSound = new Audio("../assets/mp3/here_we_go.mp3");
 
 
 /********************************************************************************************/
