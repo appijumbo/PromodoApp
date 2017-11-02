@@ -46,7 +46,7 @@ Basic market research suggests:
 
 The concept look and feel UI focused on dark colours and simplicity because that seemed to be what the market research indicated
 
-<img src="https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/initial%20concept%20look%20n%20feel.jpg" width="250">
+<img src="https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/initial%20concept%20look%20n%20feel.jpg" width="350">
 
 However with more consideration the design changed a litle.
 
