@@ -45,13 +45,14 @@ Basic market research suggests:
 ## Design Process
 
 The concept look and feel UI focused on dark colours and simplicity because that seemed to be what the market research indicated
-<img src="https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/initial%20concept%20look%20n%20feel.jpg" width="500">
+
+<img src="https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/initial%20concept%20look%20n%20feel.jpg" width="250">
 
 However with more consideration the design changed a litle.
 
 [Initial design](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/IA%20v3.jpg) looked like
 
-<img src="./promodo_design/IA v3.jpg" width="300">
+<img src="./promodo_design/IA v3.jpg" width="600">
 
 ### Creating an MVP
 The design was simplified and screen workflow (roughly speaking a 'Information Architecture' (IA) design) was produced to focus on some minimal viable product
