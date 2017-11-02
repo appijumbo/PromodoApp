@@ -87,7 +87,11 @@ Note that the tool tips wasn't implemented but would have been acheived by emplo
 
 [Final MVP design](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/wireframe%20v14.pdf)
 
-<img src="./promodo_design/wireframe%20v14.pdf" width="300">
+<img src="./promodo_design/wireframe%20v14_pg1.jpg" width="500">
+
+<img src="./promodo_design/wireframe%20v14_pg2.jpg" width="500">
+
+<img src="./promodo_design/wireframe%20v14_pg3.jpg" width="500">
 
 ### Sass
 
