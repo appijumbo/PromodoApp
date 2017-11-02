@@ -51,33 +51,33 @@ However with more consideration the design changed a litle.
 
 [Initial design](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/IA%20v3.jpg) looked like
 
-<img src="./promodo_design/IA v3.jpg" width="600">
+<img src="./promodo_design/IA v3.jpg" width="300">
 
 ### Creating an MVP
 The design was simplified and screen workflow (roughly speaking a 'Information Architecture' (IA) design) was produced to focus on some minimal viable product
 
 [Promodo IA v1](./promodo_design/Promodo IA v1.jpg)
 
-<img src="./promodo_design/Promodo IA v1.jpg" width="400">
+<img src="./promodo_design/Promodo IA v1.jpg" width="500">
 
 
 secong version MVP
-[Promodo IA v2](./promodo_design/Promodo map v2.jpg)
+[Promodo IA v2](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/Promodo%20IA%20v1.jpg)
 
 <img src="./promodo_design/Promodo map v2.jpg" width="400">
 
 
 The 'final' detailed wireframe MVP was 'tested' by using a scaled pdf for a mobile screen.
 
-[360x640 MotoG presentaion v7_1](./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
+[360x640 MotoG presentaion v7_1](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg)
 
 <img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_1.jpg" width="300">
 
-[360x640 MotoG presentaion v7_2](./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
+[360x640 MotoG presentaion v7_2](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg)
 
 <img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_2.jpg" width="300">
 
-[360x640 MotoG presentaion v7_3](./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
+[360x640 MotoG presentaion v7_3](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg)
 
 <img src="./promodo_design/360x640%20MotoG%20presentaion%20v7_3.jpg" width="300">
 
