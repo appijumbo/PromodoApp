@@ -85,9 +85,9 @@ The 'final' detailed wireframe MVP was 'tested' by using a scaled pdf for a mobi
 Note that the tool tips wasn't implemented but would have been acheived by employing data attributes in the html. The dark theme that was implemented in the final version used as similar approach.
 
 
-[Final MVP design](./promodo_design/wireframe v14.pdf)
+[Final MVP design](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/wireframe%20v14.pdf)
 
-
+<img src="./promodo_design/wireframe%20v14.pdf" width="300">
 
 ### Sass
 
