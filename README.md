@@ -52,20 +52,20 @@ However with more consideration the design changed a litle.
 
 [Initial design](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/IA%20v3.jpg) looked like
 
-<img src="./promodo_design/IA v3.jpg" width="600">
+<img src="./promodo_design/IA v3.jpg" width="800">
 
 ### Creating an MVP
 The design was simplified and screen workflow (roughly speaking a 'Information Architecture' (IA) design) was produced to focus on some minimal viable product
 
-[Promodo IA v1](./promodo_design/Promodo IA v1.jpg)
+[Promodo IA v1](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/Promodo%20IA%20v1.jpg)
 
 <img src="./promodo_design/Promodo IA v1.jpg" width="500">
 
 
 secong version MVP
-[Promodo IA v2](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/Promodo%20IA%20v1.jpg)
+[Promodo IA v2](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/Promodo%20map%20v2.jpg)
 
-<img src="./promodo_design/Promodo map v2.jpg" width="400">
+<img src="./promodo_design/Promodo map v2.jpg" width="500">
 
 
 The 'final' detailed wireframe MVP was 'tested' by using a scaled pdf for a mobile screen.
