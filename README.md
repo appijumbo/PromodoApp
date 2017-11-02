@@ -44,7 +44,12 @@ Basic market research suggests:
 
 ## Design Process
 
-[Initial design](./promodo_design/IA v3.jpg) looked like
+The concept look and feel UI focused on dark colours and simplicity because that seemed to be what the market research indicated
+<img src="https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/initial%20concept%20look%20n%20feel.jpg" width="500">
+
+However with more consideration the design changed a litle.
+
+[Initial design](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/IA%20v3.jpg) looked like
 
 <img src="./promodo_design/IA v3.jpg" width="600">
 
