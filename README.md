@@ -26,7 +26,7 @@ professional versions also favoured:
 
 
 ## Market Review
-Basic [market Research](https://github.com/appijumbo/PromodoApp/blob/master/extras/Market%20research%20%26%20Spec%20v1.pdf) was done by looking at comments from users on other promodo apps in the Google App store. 
+Basic [market Research](https://github.com/appijumbo/PromodoApp/blob/master/promodo_design/Market%20research%20%26%20Spec%20v1.pdf) was done by looking at comments from users on other promodo apps in the Google App store. 
 Some conclusions were
 
 Basic market research suggests:
