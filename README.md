@@ -128,6 +128,6 @@ Overall I felt the project went well producing a design based on market research
 
 **The main issue is that clearly HTML5 based apps are not optimised for mobile**. For instance the range adjustment behaves poorly in mobiles hving tested in in several browser on a few of different mobile devices.
 
-However the **Free Code Camp spec didn't even include mobile as a desierd platform** so in this respect mobile usage is a bonus. Indded if mobile were required I would proably build the app in [AngulaJS](https://angularjs.org/) and [Ionic](https://ionicframework.com/docs/intro/installation/) employing [Ionic's range UI](https://ionicframework.com/docs/api/components/range/Range/) component.
+However the **Free Code Camp spec didn't even include mobile as a desired platform** so in this respect mobile usage is a bonus. Indded if mobile were required I would proably build the app in [AngulaJS](https://angularjs.org/) and [Ionic](https://ionicframework.com/docs/intro/installation/) employing [Ionic's range UI](https://ionicframework.com/docs/api/components/range/Range/) component.
 
 
